@@ -69,7 +69,10 @@
       {"name":"Oil production (Etemad \u0026 Luciana) (terawatt-hours)","type":"float"},
       {"name":"meat_prod_tonnes","type":"int"},
       {"name":"Meat_supply_kgperCap","type":"float"},
-      {"name":"Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)","type":"int"}
+      {"name":"Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)","type":"int"},
+      {"name":"Urban (%)","type":"float"},
+      {"name":"GDP per capita (int.-$) ($)","type":"int"},
+      {"name":"Population","type":"int"}
     ],
     "userModified": true
   },
