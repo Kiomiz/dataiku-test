@@ -25,6 +25,30 @@
           "type": "EQ",
           "strict": false,
           "windowTo": 0
+        },
+        {
+          "column1": {
+            "name": "Year",
+            "table": 0
+          },
+          "dateDiffUnit": "SECOND",
+          "column2": {
+            "name": "Year",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Entity",
+            "table": 0
+          },
+          "dateDiffUnit": "SECOND",
+          "column2": {
+            "name": "Entity",
+            "table": 1
+          },
+          "type": "EQ"
         }
       ]
     }
