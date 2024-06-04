@@ -61,7 +61,19 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"Entity","type":"string"},
+      {"name":"Code","type":"string"},
+      {"name":"Year","type":"int"},
+      {"name":"Per capita CO₂ emissions (tonnes per capita)","type":"float"},
+      {"name":"Meat_supply_kgperCap","type":"float"},
+      {"name":"Urban (%)","type":"float"},
+      {"name":"GDP per capita (int.-$) ($)","type":"int"},
+      {"name":"Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita","type":"double"},
+      {"name":"meat_prod_tonnes_per-capita","type":"double"},
+      {"name":"Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita","type":"double"},
+      {"name":"_rank","type":"bigint"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
