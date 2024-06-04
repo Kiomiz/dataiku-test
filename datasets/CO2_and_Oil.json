@@ -70,12 +70,26 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "f51c091886ae562aa99c0532535ad9a28251f3f6c62392ce4cc0405082ee07c4",
     "files": [
       "/CO2_and_Oil.csv"
     ],
-    "uploadConnection": "dataiku-managed-storage",
     "uploadFSProviderType": "S3",
+    "uploadedConfig": {
+      "bucket": "gis-data-eu-west-3",
+      "metastoreSynchronizationEnabled": true,
+      "metastoreDatabaseName": "default",
+      "metastoreTableName": "${projectKey}_CO2_and_Oil",
+      "connection": "dataiku-managed-storage",
+      "path": "/managed-dss-data/uploads/${projectKey}/CO2_and_Oil",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "dataiku-managed-storage",
     "notReadyIfEmpty": false,
     "previewFile": "/CO2_and_Oil.csv",
     "filesSelectionRules": {
