@@ -6,40 +6,68 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Code",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "Code",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Entity",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Code",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Year",
+      "type": "int",
       "table": 0
     },
     {
       "name": "Per capita CO₂ emissions (tonnes per capita)",
+      "type": "float",
       "table": 0
     },
     {
       "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours)",
+      "type": "float",
       "table": 0
     },
     {
       "name": "meat_prod_tonnes",
+      "type": "int",
       "table": 1
     },
     {
       "name": "Meat_supply_kgperCap",
+      "type": "float",
       "table": 1
     },
     {
       "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)",
+      "type": "int",
       "table": 1
     }
   ],
@@ -103,5 +131,47 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "int"
+          },
+          {
+            "name": "Per capita CO₂ emissions (tonnes per capita)",
+            "type": "float"
+          },
+          {
+            "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours)",
+            "type": "float"
+          },
+          {
+            "name": "meat_prod_tonnes",
+            "type": "int"
+          },
+          {
+            "name": "Meat_supply_kgperCap",
+            "type": "float"
+          },
+          {
+            "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)",
+            "type": "int"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
