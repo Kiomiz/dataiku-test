@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "PX6hUNJ",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false,
+      "enableCrossFilters": true,
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP",
+        "engineType": "LINO"
+      }
+    }
+  ],
+  "owner": "mathis.coutelier@hotmail.com",
+  "listed": true,
+  "name": "Core_Designer_Certificate\u0027s default dashboard",
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "mathis.coutelier@hotmail.com"
+    },
+    "lastModifiedOn": 1717510017823,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
