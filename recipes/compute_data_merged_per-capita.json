@@ -63,7 +63,7 @@
     "main": {
       "items": [
         {
-          "ref": "data_merged_per-capita",
+          "ref": "data_merged_prepared",
           "appendMode": false
         }
       ]
