@@ -105,7 +105,7 @@
       {"name":"Code","type":"string"},
       {"name":"Year","type":"int"},
       {"name":"Urban (%)","type":"float"},
-      {"name":"GDP per capita (int.-$) ($)","type":"string"},
+      {"name":"GDP per capita (int.-$) ($)","type":"int"},
       {"name":"Population","type":"string"}
     ],
     "userModified": true
