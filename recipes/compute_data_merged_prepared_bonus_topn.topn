@@ -4,7 +4,7 @@
     "enabled": false
   },
   "retrievedColumnsSelectionMode": "ALL",
-  "firstRows": 980,
+  "firstRows": 193,
   "keys": [],
   "computedColumns": [],
   "retrievedColumns": [
@@ -68,22 +68,6 @@
   "orders": [
     {
       "column": "CO2 Production 2008",
-      "desc": true
-    },
-    {
-      "column": "CO2 Production 2009",
-      "desc": true
-    },
-    {
-      "column": "CO2 Production 2010",
-      "desc": true
-    },
-    {
-      "column": "CO2 Production 2011",
-      "desc": true
-    },
-    {
-      "column": "CO2 Production 2012",
       "desc": true
     }
   ],
