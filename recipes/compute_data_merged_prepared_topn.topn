@@ -4,10 +4,21 @@
     "enabled": false
   },
   "retrievedColumnsSelectionMode": "ALL",
-  "firstRows": 1,
+  "firstRows": 980,
   "keys": [],
   "computedColumns": [],
-  "retrievedColumns": [],
+  "retrievedColumns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Per capita CO₂ emissions (tonnes per capita)",
+    "Meat_supply_kgperCap",
+    "Urban (%)",
+    "GDP per capita (int.-$) ($)",
+    "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita",
+    "meat_prod_tonnes_per-capita",
+    "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita"
+  ],
   "lastRows": 0,
   "duplicateCount": false,
   "engineParams": {
@@ -47,9 +58,18 @@
       }
     }
   },
-  "rank": false,
+  "rank": true,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "Year",
+      "desc": false
+    },
+    {
+      "column": "Per capita CO₂ emissions (tonnes per capita)",
+      "desc": false
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {}
 }
