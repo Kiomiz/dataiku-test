@@ -70,12 +70,26 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "f51c091886ae562aa99c0532535ad9a28251f3f6c62392ce4cc0405082ee07c4",
     "files": [
       "/Urbanization_GDP_and_Population.csv"
     ],
-    "uploadConnection": "dataiku-managed-storage",
     "uploadFSProviderType": "S3",
+    "uploadedConfig": {
+      "bucket": "gis-data-eu-west-3",
+      "metastoreSynchronizationEnabled": true,
+      "metastoreDatabaseName": "default",
+      "metastoreTableName": "${projectKey}_Urbanization_GDP_and_Population",
+      "connection": "dataiku-managed-storage",
+      "path": "/managed-dss-data/uploads/${projectKey}/Urbanization_GDP_and_Population",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "dataiku-managed-storage",
     "notReadyIfEmpty": false,
     "previewFile": "/Urbanization_GDP_and_Population.csv",
     "filesSelectionRules": {
