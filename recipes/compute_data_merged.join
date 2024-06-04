@@ -219,8 +219,30 @@
     {
       "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
       "preFilter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "$latestOperator": "\u0026\u0026",
+          "$filterOptions": "rules",
+          "conditions": [
+            {
+              "input": "Year",
+              "col": "Code",
+              "$showList": false,
+              "num": 2008,
+              "operator": "\u003e\u003d [number]"
+            },
+            {
+              "input": "Year",
+              "col": "Code",
+              "$showList": false,
+              "num": 2012,
+              "operator": "\u003c\u003d [number]"
+            }
+          ]
+        },
+        "$status": {},
         "distinct": false,
-        "enabled": false
+        "enabled": true
       },
       "originLabel": "CO2_and_Oil",
       "index": 0,
