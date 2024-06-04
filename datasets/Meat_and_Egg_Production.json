@@ -70,12 +70,26 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "f51c091886ae562aa99c0532535ad9a28251f3f6c62392ce4cc0405082ee07c4",
     "files": [
       "/Meat_and_Egg_Production.csv"
     ],
-    "uploadConnection": "dataiku-managed-storage",
     "uploadFSProviderType": "S3",
+    "uploadedConfig": {
+      "bucket": "gis-data-eu-west-3",
+      "metastoreSynchronizationEnabled": true,
+      "metastoreDatabaseName": "default",
+      "metastoreTableName": "${projectKey}_Meat_and_Egg_Production",
+      "connection": "dataiku-managed-storage",
+      "path": "/managed-dss-data/uploads/${projectKey}/Meat_and_Egg_Production",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "dataiku-managed-storage",
     "notReadyIfEmpty": false,
     "previewFile": "/Meat_and_Egg_Production.csv",
     "filesSelectionRules": {
