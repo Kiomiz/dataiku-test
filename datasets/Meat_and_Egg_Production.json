@@ -105,7 +105,7 @@
       {"name":"Code","type":"string"},
       {"name":"Year","type":"int"},
       {"name":"meat_prod_tonnes","type":"int"},
-      {"name":"Meat_supply_kgperCap","type":"string"},
+      {"name":"Meat_supply_kgperCap","type":"float"},
       {"name":"Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)","type":"string"}
     ],
     "userModified": true
