@@ -51,6 +51,73 @@
           "type": "EQ"
         }
       ]
+    },
+    {
+      "table2": 2,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "Entity",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "Entity",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        },
+        {
+          "column1": {
+            "name": "Code",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "Code",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        },
+        {
+          "column1": {
+            "name": "Year",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "Year",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        }
+      ]
     }
   ],
   "selectedColumns": [
@@ -93,6 +160,21 @@
       "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)",
       "type": "int",
       "table": 1
+    },
+    {
+      "name": "Urban (%)",
+      "type": "float",
+      "table": 2
+    },
+    {
+      "name": "GDP per capita (int.-$) ($)",
+      "type": "int",
+      "table": 2
+    },
+    {
+      "name": "Population",
+      "type": "int",
+      "table": 2
     }
   ],
   "resolvedSelectedColumns": [],
@@ -153,6 +235,11 @@
       "originLabel": "Meat_and_Egg_Production",
       "index": 1,
       "computedColumns": []
+    },
+    {
+      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "preFilter": {},
+      "index": 2
     }
   ],
   "computedColumns": [],
@@ -190,6 +277,18 @@
           },
           {
             "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes)",
+            "type": "int"
+          },
+          {
+            "name": "Urban (%)",
+            "type": "float"
+          },
+          {
+            "name": "GDP per capita (int.-$) ($)",
+            "type": "int"
+          },
+          {
+            "name": "Population",
             "type": "int"
           }
         ],
