@@ -105,7 +105,7 @@
       {"name":"Code","type":"string"},
       {"name":"Year","type":"int"},
       {"name":"Per capita CO₂ emissions (tonnes per capita)","type":"float"},
-      {"name":"Oil production (Etemad \u0026 Luciana) (terawatt-hours)","type":"string"}
+      {"name":"Oil production (Etemad \u0026 Luciana) (terawatt-hours)","type":"float"}
     ],
     "userModified": true
   },
