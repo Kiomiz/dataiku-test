@@ -12,6 +12,11 @@
     "Code",
     "Year",
     "Per capita CO₂ emissions (tonnes per capita)",
+    "CO2 Production 2012",
+    "CO2 Production 2011",
+    "CO2 Production 2010",
+    "CO2 Production 2009",
+    "CO2 Production 2008",
     "Meat_supply_kgperCap",
     "Urban (%)",
     "GDP per capita (int.-$) ($)",
@@ -62,12 +67,24 @@
   "denseRank": false,
   "orders": [
     {
-      "column": "Year",
-      "desc": false
+      "column": "CO2 Production 2008",
+      "desc": true
     },
     {
-      "column": "Per capita CO₂ emissions (tonnes per capita)",
-      "desc": false
+      "column": "CO2 Production 2009",
+      "desc": true
+    },
+    {
+      "column": "CO2 Production 2010",
+      "desc": true
+    },
+    {
+      "column": "CO2 Production 2011",
+      "desc": true
+    },
+    {
+      "column": "CO2 Production 2012",
+      "desc": true
     }
   ],
   "rowNumber": false,

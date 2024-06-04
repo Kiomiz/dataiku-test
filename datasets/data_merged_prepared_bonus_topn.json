@@ -41,7 +41,7 @@
     "lastModifiedBy": {
       "login": "mathis.coutelier@hotmail.com"
     },
-    "lastModifiedOn": 1717516311176,
+    "lastModifiedOn": 1717516120495,
     "extendedProperties": {}
   },
   "tags": [],
@@ -49,9 +49,9 @@
     "bucket": "gis-data-eu-west-3",
     "metastoreSynchronizationEnabled": true,
     "metastoreDatabaseName": "default",
-    "metastoreTableName": "${projectKey}_data_merged_prepared_topn",
+    "metastoreTableName": "${projectKey}_data_merged_prepared_bonus_topn",
     "connection": "dataiku-managed-storage",
-    "path": "/managed-dss-data/${projectKey}/data_merged_prepared_topn",
+    "path": "/managed-dss-data/${projectKey}/data_merged_prepared_bonus_topn",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -66,6 +66,11 @@
       {"name":"Code","type":"string"},
       {"name":"Year","type":"int"},
       {"name":"Per capita CO₂ emissions (tonnes per capita)","type":"float"},
+      {"name":"CO2 Production 2012","type":"double"},
+      {"name":"CO2 Production 2011","type":"double"},
+      {"name":"CO2 Production 2010","type":"double"},
+      {"name":"CO2 Production 2009","type":"double"},
+      {"name":"CO2 Production 2008","type":"double"},
       {"name":"Meat_supply_kgperCap","type":"float"},
       {"name":"Urban (%)","type":"float"},
       {"name":"GDP per capita (int.-$) ($)","type":"int"},
