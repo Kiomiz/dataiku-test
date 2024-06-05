@@ -394,7 +394,7 @@
       "orders": [
         {
           "column": "Per capita CO₂ emissions (tonnes per capita)",
-          "desc": false
+          "desc": true
         }
       ],
       "limitPreceding": false,
