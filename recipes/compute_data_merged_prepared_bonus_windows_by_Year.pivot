@@ -62,14 +62,16 @@
         {
           "last": false,
           "max": false,
+          "firstLastNotNull": false,
           "column": "rank",
           "count": false,
           "sum": false,
           "concat": false,
           "type": "bigint",
-          "$agg": "first",
-          "countDistinct": false,
+          "concatDistinct": false,
+          "sum2": false,
           "min": false,
+          "countDistinct": false,
           "avg": false,
           "stddev": false,
           "first": true,
@@ -80,5 +82,10 @@
   ],
   "computedColumns": [],
   "customAggregates": [],
-  "enginesPreferences": {}
+  "enginesPreferences": {
+    "enginesPreferenceOrder": [],
+    "preferenceByRecipeType": {},
+    "forbiddenEngines": [],
+    "forbiddenByRecipeType": {}
+  }
 }
