@@ -6,68 +6,103 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Entity",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "windowFrom": 0,
+          "column2": {
+            "name": "Entity",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false,
+          "windowTo": 0
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Entity",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Code",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Year",
+      "type": "int",
       "table": 0
     },
     {
       "name": "Per capita CO₂ emissions (tonnes per capita)",
+      "type": "float",
       "table": 0
     },
     {
       "name": "Meat_supply_kgperCap",
+      "type": "float",
       "table": 0
     },
     {
       "name": "Urban (%)",
+      "type": "float",
       "table": 0
     },
     {
       "name": "GDP per capita (int.-$) ($)",
+      "type": "int",
       "table": 0
     },
     {
       "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita",
+      "type": "double",
       "table": 0
     },
     {
       "name": "meat_prod_tonnes_per-capita",
+      "type": "double",
       "table": 0
     },
     {
       "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita",
+      "type": "double",
       "table": 0
     },
     {
       "name": "2008_rank_first",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "2009_rank_first",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "2010_rank_first",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "2011_rank_first",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "2012_rank_first",
+      "type": "bigint",
       "table": 1
     }
   ],
@@ -131,5 +166,75 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Code",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "int"
+          },
+          {
+            "name": "Per capita CO₂ emissions (tonnes per capita)",
+            "type": "float"
+          },
+          {
+            "name": "Meat_supply_kgperCap",
+            "type": "float"
+          },
+          {
+            "name": "Urban (%)",
+            "type": "float"
+          },
+          {
+            "name": "GDP per capita (int.-$) ($)",
+            "type": "int"
+          },
+          {
+            "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita",
+            "type": "double"
+          },
+          {
+            "name": "meat_prod_tonnes_per-capita",
+            "type": "double"
+          },
+          {
+            "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita",
+            "type": "double"
+          },
+          {
+            "name": "2008_rank_first",
+            "type": "bigint"
+          },
+          {
+            "name": "2009_rank_first",
+            "type": "bigint"
+          },
+          {
+            "name": "2010_rank_first",
+            "type": "bigint"
+          },
+          {
+            "name": "2011_rank_first",
+            "type": "bigint"
+          },
+          {
+            "name": "2012_rank_first",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
