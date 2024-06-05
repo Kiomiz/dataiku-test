@@ -100,7 +100,7 @@
     },
     {
       "last": false,
-      "lagDiff": true,
+      "lagDiff": false,
       "max": false,
       "firstLastNotNull": false,
       "column": "Per capita CO₂ emissions (tonnes per capita)",
@@ -116,7 +116,7 @@
       "min": false,
       "countDistinct": false,
       "avg": false,
-      "lag": false,
+      "lag": true,
       "leadValues": "1",
       "$selected": false,
       "stddev": false,
@@ -344,7 +344,7 @@
             "type": "double"
           },
           {
-            "name": "Per capita CO₂ emissions (tonnes per capita)_lag_diff",
+            "name": "Per capita CO₂ emissions (tonnes per capita)_lag",
             "type": "float"
           }
         ],
