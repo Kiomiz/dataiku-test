@@ -53,6 +53,14 @@
     {
       "objectId": "data_merged_prepared_bonus_windows_change_by_Year",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_data_merged_prepared_bonus_by_Entity_joined_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "data_merged_prepared_bonus_by_Entity_joined_joined",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
