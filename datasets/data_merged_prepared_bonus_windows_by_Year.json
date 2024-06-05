@@ -62,14 +62,14 @@
   },
   "schema": {
     "columns": [
-      {"name":"rank","type":"bigint"},
-      {"name":"2008_count","type":"bigint"},
-      {"name":"2009_count","type":"bigint"},
-      {"name":"2010_count","type":"bigint"},
-      {"name":"2011_count","type":"bigint"},
-      {"name":"2012_count","type":"bigint"}
+      {"name":"Entity","type":"string"},
+      {"name":"2008_rank_count","type":"bigint"},
+      {"name":"2009_rank_count","type":"bigint"},
+      {"name":"2010_rank_count","type":"bigint"},
+      {"name":"2011_rank_count","type":"bigint"},
+      {"name":"2012_rank_count","type":"bigint"}
     ],
-    "userModified": false,
+    "userModified": true,
     "metadata": {
       "engineType": "DSS",
       "pivotElementsModalities": [
