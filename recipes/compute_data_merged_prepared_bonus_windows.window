@@ -397,7 +397,7 @@
           "desc": false
         },
         {
-          "column": "Per capita CO₂ emissions (tonnes per capita)",
+          "column": "CO2 Production 2008",
           "desc": true
         }
       ],
