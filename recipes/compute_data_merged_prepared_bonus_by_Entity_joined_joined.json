@@ -27,7 +27,7 @@
     "main": {
       "items": [
         {
-          "ref": "data_merged_prepared_bonus_by_Entity_joined_joined",
+          "ref": "data_prepared_bonus",
           "appendMode": false
         }
       ]

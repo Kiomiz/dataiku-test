@@ -59,7 +59,7 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "data_merged_prepared_bonus_by_Entity_joined_joined",
+      "objectId": "data_prepared_bonus",
       "objectType": "DATASET"
     }
   ],
