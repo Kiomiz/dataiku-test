@@ -60,10 +60,20 @@
       ],
       "valueColumns": [
         {
+          "last": false,
+          "max": false,
           "column": "rank",
-          "count": true,
+          "count": false,
+          "sum": false,
+          "concat": false,
           "type": "bigint",
-          "$agg": "count"
+          "$agg": "first",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": true,
+          "orderColumn": "Entity"
         }
       ]
     }
