@@ -1,0 +1,166 @@
+{
+  "type": "S3",
+  "managed": true,
+  "featureGroup": false,
+  "formatType": "parquet",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": true,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "parquetLowerCaseIdentifiers": false,
+    "representsNullFields": false,
+    "parquetCompressionMethod": "SNAPPY",
+    "parquetFlavor": "HIVE",
+    "parquetBlockSizeMB": 128
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "mathis.coutelier@hotmail.com"
+    },
+    "lastModifiedOn": 1717573104799,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "params": {
+    "bucket": "gis-data-eu-west-3",
+    "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "default",
+    "metastoreTableName": "${projectKey}_data_merged_prepared_bonus_windows",
+    "connection": "dataiku-managed-storage",
+    "path": "/managed-dss-data/${projectKey}/data_merged_prepared_bonus_windows",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {"name":"Entity","type":"string"},
+      {"name":"Code","type":"string"},
+      {"name":"Year","type":"int"},
+      {"name":"Per capita CO₂ emissions (tonnes per capita)","type":"float"},
+      {"name":"CO2 Production 2012","type":"double"},
+      {"name":"CO2 Production 2011","type":"double"},
+      {"name":"CO2 Production 2010","type":"double"},
+      {"name":"CO2 Production 2009","type":"double"},
+      {"name":"CO2 Production 2008","type":"double"},
+      {"name":"Meat_supply_kgperCap","type":"float"},
+      {"name":"Urban (%)","type":"float"},
+      {"name":"GDP per capita (int.-$) ($)","type":"int"},
+      {"name":"Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita","type":"double"},
+      {"name":"meat_prod_tonnes_per-capita","type":"double"},
+      {"name":"Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita","type":"double"}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "monitor": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
