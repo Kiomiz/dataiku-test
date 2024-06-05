@@ -45,7 +45,7 @@
     }
   },
   "explicitIdentifiers": [
-    "rank"
+    "Entity"
   ],
   "otherColumns": [],
   "pivots": [
@@ -53,12 +53,19 @@
       "valueLimit": "NO_LIMIT",
       "minOccLimit": 0,
       "topnLimit": 20,
-      "globalCount": true,
+      "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
         "Year"
       ],
-      "valueColumns": []
+      "valueColumns": [
+        {
+          "column": "rank",
+          "count": true,
+          "type": "bigint",
+          "$agg": "count"
+        }
+      ]
     }
   ],
   "computedColumns": [],
