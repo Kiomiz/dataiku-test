@@ -72,7 +72,7 @@
       {"name":"Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita","type":"double"},
       {"name":"meat_prod_tonnes_per-capita","type":"double"},
       {"name":"Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita","type":"double"},
-      {"name":"Per capita CO₂ emissions (tonnes per capita)_lag","type":"float"}
+      {"name":"Per capita CO₂ emissions (tonnes per capita)_lag_diff","type":"float"}
     ],
     "userModified": true
   },
