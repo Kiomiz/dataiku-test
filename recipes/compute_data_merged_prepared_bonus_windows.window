@@ -386,16 +386,13 @@
   "legacyUnboundedWindowStreamBehavior": false,
   "windows": [
     {
+      "windowLimitMode": "ROWS",
       "windowUpperBound": 0,
       "enablePartitioning": true,
       "enableOrdering": true,
       "precedingRows": 0,
       "limitFollowing": false,
       "orders": [
-        {
-          "column": "Year",
-          "desc": false
-        },
         {
           "column": "CO2 Production 2008",
           "desc": true
@@ -404,7 +401,7 @@
       "limitPreceding": false,
       "followingRows": 0,
       "windowLowerBound": 0,
-      "enableLimits": false,
+      "enableLimits": true,
       "partitioningColumns": [
         "Entity"
       ]
