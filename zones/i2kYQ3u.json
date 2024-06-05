@@ -29,6 +29,14 @@
     {
       "objectId": "data_merged_prepared_bonus_by_Entity",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_data_merged_prepared_bonus_by_Entity_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "data_merged_prepared_bonus_by_Entity_joined",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
