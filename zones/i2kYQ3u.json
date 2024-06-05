@@ -1,7 +1,28 @@
 {
   "name": "Bonus",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "data_merged_prepared_bonus",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "data_merged_prepared_bonus_rank",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "data_merged_prepared_bonus_windows",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_data_merged_prepared_bonus_windows",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_data_merged_prepared_bonus_windows_by_Year",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
