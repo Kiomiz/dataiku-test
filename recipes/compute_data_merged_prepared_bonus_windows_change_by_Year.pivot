@@ -44,20 +44,41 @@
       }
     }
   },
-  "explicitIdentifiers": [],
+  "explicitIdentifiers": [
+    "Entity"
+  ],
   "otherColumns": [],
   "pivots": [
     {
+      "valueLimit": "NO_LIMIT",
       "minOccLimit": 0,
-      "topnLimit": 0,
-      "globalCount": true,
+      "topnLimit": 20,
+      "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
         "Year"
       ],
-      "valueColumns": []
+      "valueColumns": [
+        {
+          "last": false,
+          "max": false,
+          "column": "Per capita CO₂ emissions (tonnes per capita)_lag_diff",
+          "count": false,
+          "sum": false,
+          "concat": false,
+          "type": "float",
+          "$agg": "first",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": true,
+          "orderColumn": "Entity"
+        }
+      ]
     }
   ],
   "computedColumns": [],
-  "customAggregates": []
+  "customAggregates": [],
+  "enginesPreferences": {}
 }
