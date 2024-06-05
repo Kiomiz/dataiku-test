@@ -101,7 +101,7 @@
   },
   "schema": {
     "columns": [
-      {"name":"Entity","type":"string","meaning":"Text"},
+      {"name":"Entity","type":"string"},
       {"name":"Code","type":"string"},
       {"name":"Year","type":"int"},
       {"name":"Urban (%)","type":"float"},
