@@ -285,7 +285,7 @@
       "limitFollowing": false,
       "orders": [
         {
-          "column": "Per capita CO₂ emissions (tonnes per capita)",
+          "column": "Year",
           "desc": false
         }
       ],
@@ -294,7 +294,7 @@
       "windowLowerBound": 0,
       "enableLimits": false,
       "partitioningColumns": [
-        "Year"
+        "Entity"
       ]
     }
   ],
