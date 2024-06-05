@@ -73,6 +73,510 @@
           }
         ],
         "id": "hWo6CVd"
+      },
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": false,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "showCumulativeDistributionFunction": false,
+        "xColumns": [
+          {
+            "name": "Per capita CO₂ emissions (tonnes per capita)_avg",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Meat_supply_kgperCap_avg",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Urban (%)_avg",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "GDP per capita (int.-$) ($)_avg",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita_avg",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "meat_prod_tonnes_per-capita_avg",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita_avg",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Per capita CO₂ emissions (tonnes per capita)_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Per capita CO₂ emissions (tonnes per capita)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XxdFlPP"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Per capita CO₂ emissions (tonnes per capita)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "w2W5sWY"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Per capita CO₂ emissions (tonnes per capita)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "iozoHK0"
+              }
+            ],
+            "id": "NvHIIkv"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Meat_supply_kgperCap_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Meat_supply_kgperCap_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "7YcUxjf"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Meat_supply_kgperCap_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "8RH5Cyu"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Meat_supply_kgperCap_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "RrQZ8zy"
+              }
+            ],
+            "id": "Z0sG2DA"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Urban (%)_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Urban (%)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "WRIgIQ2"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Urban (%)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "9Ru6uXB"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Urban (%)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "C3dpsj0"
+              }
+            ],
+            "id": "b3pzu9b"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "GDP per capita (int.-$) ($)_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "GDP per capita (int.-$) ($)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "tAciUVQ"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "GDP per capita (int.-$) ($)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "W5ORnNx"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "GDP per capita (int.-$) ($)_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "gGXuS17"
+              }
+            ],
+            "id": "tUE0Oo3"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "4zhxCiL"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "kc85iu6"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Food Balance Sheets: Eggs - Production (FAO (2017)) (tonnes) per-capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "AvdT5TR"
+              }
+            ],
+            "id": "iNgjiOT"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "meat_prod_tonnes_per-capita_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "meat_prod_tonnes_per-capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "js8QZhD"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "meat_prod_tonnes_per-capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "1p0mpO6"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "meat_prod_tonnes_per-capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "GwTJneo"
+              }
+            ],
+            "id": "rD8QYnr"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita_avg",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "vPvB0oJ"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "RweLDTg"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Oil production (Etemad \u0026 Luciana) (terawatt-hours) per capita_avg",
+                  "type": "CONTINUOUS"
+                },
+                "id": "WZ5bb54"
+              }
+            ],
+            "id": "puCHto8"
+          }
+        ],
+        "id": "0nesFjB"
       }
     ],
     "id": "9j9SgbY"
