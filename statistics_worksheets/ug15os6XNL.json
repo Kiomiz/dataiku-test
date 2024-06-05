@@ -1,6 +1,6 @@
 {
   "dataSpec": {
-    "inputDatasetSmartName": "data_merged_prepared_by_Entity",
+    "inputDatasetSmartName": "data_prepared",
     "datasetSelection": {
       "useMemTable": false,
       "filter": {

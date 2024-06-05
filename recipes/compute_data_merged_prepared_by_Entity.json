@@ -23,7 +23,7 @@
     "main": {
       "items": [
         {
-          "ref": "data_merged_prepared_by_Entity",
+          "ref": "data_prepared",
           "appendMode": false
         }
       ]
