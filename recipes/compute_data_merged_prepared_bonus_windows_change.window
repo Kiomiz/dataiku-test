@@ -16,7 +16,7 @@
     },
     "$status": {},
     "distinct": false,
-    "enabled": true
+    "enabled": false
   },
   "ntileValues": "10",
   "retrievedColumnsSelectionMode": "ALL",
@@ -300,6 +300,20 @@
   ],
   "computedColumns": [],
   "postFilter": {
+    "uiData": {
+      "mode": "\u0026\u0026",
+      "$latestOperator": "\u0026\u0026",
+      "$filterOptions": "rules",
+      "conditions": [
+        {
+          "input": "Year",
+          "col": "Code",
+          "$showList": false,
+          "num": 2009,
+          "operator": "\u003e\u003d [number]"
+        }
+      ]
+    },
     "$status": {
       "schema": {
         "columns": [
@@ -352,7 +366,7 @@
       }
     },
     "distinct": false,
-    "enabled": false
+    "enabled": true
   },
   "cumeDist": false,
   "engineParams": {
