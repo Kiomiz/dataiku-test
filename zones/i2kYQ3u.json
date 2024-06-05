@@ -45,6 +45,14 @@
     {
       "objectId": "data_merged_prepared_bonus_windows_change",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_data_merged_prepared_bonus_windows_change_by_Year",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "data_merged_prepared_bonus_windows_change_by_Year",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
