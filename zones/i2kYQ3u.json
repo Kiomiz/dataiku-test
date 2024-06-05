@@ -21,6 +21,14 @@
     {
       "objectId": "compute_data_merged_prepared_bonus_windows_by_Year",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_data_merged_prepared_bonus_windows_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "data_merged_prepared_bonus_windows_joined",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
