@@ -274,7 +274,7 @@
     },
     "dkuProperties": []
   },
-  "name": "Git for Projects for mathis.coutelier",
+  "name": "Git for Projects for mathis.coutelier (master)",
   "projectStatus": "Sandbox",
   "imgPattern": 8,
   "showInitials": false,
@@ -342,7 +342,7 @@
     "extendedProperties": {}
   },
   "description": "This tutorial will focus on using Git for Dataiku projects. ",
-  "shortDesc": " Learn how projects in Dataiku can be maintained under version control using the Git integration in this [tutorial](https://knowledge.dataiku.com/latest/collaboration/project-version-control/tutorial-git-projects.html).",
+  "shortDesc": " Learn how projects in Dataiku can be maintained under version control using the Git integration in this [tutorial](https://knowledge.dataiku.com/latest/collaboration/project-version-control/tutorial-git-projects.html).\nThe project *GIT_FOR_PROJECTS_FOR_MATHIS_COUTELIER_MASTER* was copied from *TUT_GITFORPROJECTS* on *sai* branch by mathis.coutelier on Jun 10th 2024",
   "tags": [
     "academy",
     "tutorial",
