@@ -148,7 +148,20 @@
     "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "Kiomiz",
+              "accessToken": "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",
+              "repository": "Kiomiz/dataiku-test"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
